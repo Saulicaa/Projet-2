@@ -55,7 +55,6 @@ header {
 
 .hebergements-and-activités{
     display: flex;
- 
 }
 
 .hebergements-button{
@@ -331,11 +330,10 @@ a {
 
 /******* Activités **********/
 
-.activités-section {
+.activités {
     margin-top: 35px;
     padding: 30px;
     box-sizing: border-box;
-
 }
 
 .activités-cards {
@@ -364,8 +362,44 @@ a {
     margin-left: 19px;
     margin-right: 19px;
 }
+
+/******* Footer **********/
+.oui {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    width: 100%;
+    background-color: var(--main-bg-color);
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
 }
 
+.footer-title {
+    margin: 0;
+}
+
+.footer-subtitle {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-link {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    margin-top: 15px;
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
@@ -406,5 +440,5 @@ a {
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    /* ... */
+    
 }
