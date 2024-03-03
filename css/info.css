@@ -1,0 +1,22 @@
+/****** Info ***********/
+
+.info-group {
+    display:flex;
+    flex-direction: column;
+    gap: 2.1875em;
+}
+
+.headline {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+}
+
+.info-title {
+    font-size: 1.375em;
+    margin: 0;
+}
+
+.info-subtitle {
+    margin: 0;
+}

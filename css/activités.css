@@ -1,0 +1,40 @@
+/******* Activités **********/
+
+.activités {   
+    padding: 1.875em;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875em;
+}
+
+.activités-cards {
+    display: flex;
+    gap: 1.875em;
+}
+
+.activités-cards .card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+    padding: 0;
+}
+
+.activités-cards a {
+    width: 18.594em;
+}
+
+.activités-cards img {
+    width: 100%;
+    height: 23.75em;
+    border-top-left-radius: 1.25em;
+    border-top-right-radius: 1.25em;
+}
+
+.activités-cards .card-title {
+    margin-top: 1.25em;
+    margin-bottom: 1.25em;
+    margin-left: 1.1875em;
+    margin-right: 1.1875em;
+}

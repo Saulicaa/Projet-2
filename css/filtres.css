@@ -1,0 +1,40 @@
+/****** Filtres ***********/
+
+.filtres {
+    display: flex;  
+    gap: 0.9375em;
+}
+
+.groups-filters-button {
+    display: flex;
+    gap: 0.9375em;
+}
+
+.phone-filters{
+    gap: 0.9375em;
+    display: flex;
+}
+
+.filtres-button {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 1.5625em;
+    border: 0.125em solid var(--main-bg-color); 
+    padding: 0.25em 1.1875em;
+    gap: 0.625em;
+}
+
+.filtres-button:hover {
+    background-color: var(--filter-bg-color);
+}
+
+.info-bar {
+    display: flex;
+}
+
+.information { 
+    margin-right: 0.625em;
+    margin-top: 0;
+    margin-bottom: 0;
+}

@@ -1,0 +1,64 @@
+/****** Barre de recherche ***********/
+.gps-search {
+    min-width: 3.125em;
+    height: 3.0625em;
+    background-color: var(--main-bg-color);
+    border-radius: 0.9375em 0 0 0.9375em;
+    background-image: url("../images/icone/gps.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-left: -0.0625em;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 23.25em; 
+    height: 3.0625em; 
+    border-radius: 0.9375em;
+    border: 0.0625em solid var(--main-bg-color); 
+    background-color: transparent; 
+    
+}
+
+.texte-recherche{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    
+}
+
+.search-name {
+    font-size: 1.125em;
+}
+
+.recherche {
+    border: none;
+}
+
+.search-bar input[type="text"] {
+    border: none; /* Supprime la bordure de l'élément input de type texte */
+    outline: none;
+    font-size: 1em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.search-bar input[type="text"]::placeholder {
+    font-size: 0.875em; /* Définit la taille du placeholder à 14 pixels */
+}
+
+.search-button-name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 8.25em;
+    height: 3.1875em;
+    color: white;
+    background-color: var(--main-color);
+    border: 0.0625em solid var(--main-bg-color); 
+    border-radius: 0 0.9375em 0.9375em 0;
+    font-size: 1.125em;
+    font-weight: bold;
+}

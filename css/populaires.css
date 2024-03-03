@@ -1,0 +1,52 @@
+/****** Populaires ***********/
+.populaires {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.875em;
+}
+
+.populaires-title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.populaires-cards {
+    display: flex;
+    flex-direction: column;
+    gap: 1.875em;
+}
+
+.populaires-cards .card {
+    display: flex;
+}
+
+.populaires-cards img {
+    width: 33%;
+    height: 8.5em;
+    border-top-left-radius: 1.25em;
+    border-bottom-left-radius: 1.25em;
+}
+
+.populaires-cards .card-content {
+    width: 67%;
+    padding-left: 0.9375em;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+
+.populaires-cards .card-title {
+    margin-top: 0.625em;
+    margin-bottom: 0.25em;
+}
+
+.populaires-cards .card-subtitle {
+    margin: 0;
+}
+
+.populaires-cards .card-rating {
+    margin-bottom: 0.3125em;
+}
