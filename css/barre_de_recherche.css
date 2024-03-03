@@ -37,7 +37,7 @@
     border: none;
 }
 
-.search-bar input[type="text"] {
+.search-bar input[type="search"] {
     border: none; /* Supprime la bordure de l'élément input de type texte */
     outline: none;
     font-size: 1em;
@@ -45,9 +45,6 @@
     text-align: center;
 }
 
-.search-bar input[type="text"]::placeholder {
-    font-size: 0.875em; /* Définit la taille du placeholder à 14 pixels */
-}
 
 .search-button-name {
     display: flex;

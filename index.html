@@ -50,31 +50,32 @@
                 <div class="search-bar">
                     <form action="" method="get" class="texte-recherche">
                         <div class="gps-search"></div>
-                        <input type="text" name="search-query" placeholder="Entrez votre recherche...">
+                        <label for="recherche-input"></label>
+                        <input type="search" id="recherche-input" name="recherche" value="Marseille, France" onFocus="if(this.value=='Marseille, France')this.value='';"/>
                         <div class="search-button">
                             <button type="submit" class="search-button-name">Rechercher</button>
                         </div>
                     </form>
                 </div>
-                <div class="filtres">
-                    <h2 class="filtres-title">Filtres</h2>
+                <div class="filters">
+                    <h2 class="filters-title">Filtres</h2>
                     <div class="groups-filters-button">
                         <div class="phone-filters">
-                            <div class="filtres-button">
+                            <div class="filters-button">
                                 <img src="images/icone/price.svg" alt="Icone de billet">
                                 <h3>Économique</h3>
                             </div>
-                            <div class="filtres-button">
+                            <div class="filters-button">
                                 <img src="images/icone/family.svg" alt="Icone de personnage">
                                 <h3>Familial</h3>
                             </div>
                         </div>    
                         <div class="phone-filters">    
-                            <div class="filtres-button">                            
+                            <div class="filters-button">                            
                                 <img src="images/icone/romantic.svg" alt="Icone de coeur">
                                 <h3>Romantique</h3>
                             </div>
-                            <div class="filtres-button">
+                            <div class="filters-button">
                                 <img src="images/icone/fire.svg" alt="Icone de flamme">
                                 <h3>Nos pépites</h3>
                             </div>
