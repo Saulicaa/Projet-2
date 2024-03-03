@@ -17,56 +17,70 @@
 <body>
     <div class="main-container">
         <header>
-            <div class="logo">
-                 <img src="images/logo/Logo.svg" alt="Logo Booki">
-            </div>
-            <div class="hebergements-and-activités">
-                <div class="hebergements-button">
-                    <a href="section-hebergement">Hébergements</a>
+            <div class="logo-nav">
+                <div class="logo">
+                    <img src="./images/logo/Booki.png" alt="Logo Booki">
                 </div>
-                <div class="activités-button">
-                    <a href="section-activité">Activités</a>
-                </div> 
+                <nav>
+                    <div class="bordure-nav-mobile">
+                        <div class="bordure-nav-desktop"><a href="#hebergements">Hébergements</a></div>
+                    </div>
+                    <div class="bordure-nav-mobile">
+                        <div class="bordure-nav-desktop"><a href="#activites">Activités</a></div>
+                    </div>
+                </nav>
             </div>
         </header>
         <main>
-            <h1 class="info-title">Trouvez un hébergement pour des vacances de rêve</h1>
-            <p class="info-subtitle">En plein centre-ville ou en pleine nature</p>
-            <div class="search-bar">
-                <div class="gps-search"></div>
-                <h2>Marseille, France</h2>
-                <div class="search-button">
-                    <h2 class="search-button-name">Rechercher</h2>
+            <div class="info-group">
+                <div class="headline">
+                    <h1 class="info-title">Trouvez un hébergement pour des vacances de rêve</h1>
+                    <p class="info-subtitle">En plein centre-ville ou en pleine nature</p>
+                </div>  
+                <div class="search-bar">
+                    <form action="" method="get" class="texte-recherche">
+                        <div class="gps-search"></div>
+                        <input type="text" name="search-query" placeholder="Entrez votre recherche...">
+                        <div class="search-button">
+                            <button type="submit" class="search-button-name">Rechercher</button>
+                        </div>
+                    </form>
                 </div>
-            </div>
-            <div class="filtres">
-                <h2 class="filtres-title">Filtres</h2>
-                <div class="filtres-button">
-                    <img src="images/icone/price.svg" alt="Icone de billet">
-                    <h3>Économique</h3>
+                <div class="filtres">
+                    <h2 class="filtres-title">Filtres</h2>
+                    <div class="groups-filters-button">
+                        <div class="phone-filters">
+                            <div class="filtres-button">
+                                <img src="images/icone/price.svg" alt="Icone de billet">
+                                <h3>Économique</h3>
+                            </div>
+                            <div class="filtres-button">
+                                <img src="images/icone/family.svg" alt="Icone de personnage">
+                                <h3>Familial</h3>
+                            </div>
+                        </div>    
+                        <div class="phone-filters">    
+                            <div class="filtres-button">                            
+                                <img src="images/icone/romantic.svg" alt="Icone de coeur">
+                                <h3>Romantique</h3>
+                            </div>
+                            <div class="filtres-button">
+                                <img src="images/icone/fire.svg" alt="Icone de flamme">
+                                <h3>Nos pépites</h3>
+                            </div>
+                        </div>    
+                    </div>
                 </div>
-                <div class="filtres-button">
-                    <img src="images/icone/family.svg" alt="Icone de personnage">
-                    <h3>Familial</h3>
+                <div class="info-bar">
+                    <div class="information">
+                        <img src="images/icone/info.svg" alt="Icone d'info">
+                    </div>
+                    <p class="information">Plus de 500 logements sont disponibles dans cette ville</p>
                 </div>
-                <div class="filtres-button">
-                    <img src="images/icone/romantic.svg" alt="Icone de coeur">
-                    <h3>Romantique</h3>
-                </div>
-                <div class="filtres-button">
-                    <img src="images/icone/fire.svg" alt="Icone de flamme">
-                    <h3>Nos pépites</h3>
-                </div>
-            </div>
-            <div class="info-bar">
-                <div class="information">
-                    <img src="images/icone/info.svg" alt="Icone d'info">
-                </div>
-                <p class="information">Plus de 500 logements sont disponibles dans cette ville</p>
             </div>
             <div class="hebergements-and-populaires">
                 <section class="hebergements">
-                    <h2 class="section-title">Hébergements</h2>
+                    <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <a href="#">
                             <article class="card">
@@ -302,27 +316,27 @@
             </section>
         </main>
         <footer>
-            <div class="oui">
+            <div class="footer-group">
                 <div class="footer">
                     <h2 class="footer-title">À propos</h2>
                     <ul>
-                        <li><a href="footer-link">Fonctionnement du site</a></li>
-                        <li><a href="footer-link">Conditions générales</a></li>
-                        <li><a href="footer-link">Données et confidentialité</a></li>
+                        <li><a href="#">Fonctionnement du site</a></li>
+                        <li><a href="#">Conditions générales</a></li>
+                        <li><a href="#">Données et confidentialité</a></li>
                     </ul>
                 </div>
                 <div class="footer">
                     <h2 class="footer-title">Nos hébergements</h2>
                     <ul>
-                        <li><a href="footer-link">Charte qualité</a></li>
-                        <li><a href="footer-link">Proposer votre hôtel</a></li>
+                        <li><a href="#">Charte qualité</a></li>
+                        <li><a href="#">Proposer votre hôtel</a></li>
                     </ul>
                 </div>
                 <div class="footer">
                     <h2 class="footer-title">Assistance</h2>
                     <ul>
-                       <li><a href="footer-link">Centre d'aide</a></li>
-                       <li><a href="footer-link">Nous contacter</a></li>
+                       <li><a href="#">Centre d'aide</a></li>
+                       <li><a href="#">Nous contacter</a></li>
                     </ul>
                 </div>
             </div>    
