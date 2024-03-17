@@ -4,7 +4,7 @@
         flex-direction: column;
     }
 
-    .hebergements {
+    #hebergements {
         width: 100%;
     }
 
@@ -33,6 +33,11 @@
     }
 
     .filtres {
+        flex-direction: column;
+    }
+
+    .filters-groups {
+        display: flex;
         flex-direction: column;
     }
 

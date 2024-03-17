@@ -8,7 +8,6 @@
     .main-container{
         padding: 0;
         gap: 1.875em;
-        max-width: 21.0625em;
     }
     
     body {
@@ -17,6 +16,10 @@
     
     header {
         display: unset;
+    }
+
+    nav {
+        width: 100%;
     }
 
     .hebergements-and-activités{
@@ -55,16 +58,20 @@
         width: 100%;
     }
 
+    .texte-recherche {
+        justify-content: space-between;
+    }
+
     .search-button {
         min-width: 3.125em;
-        height: 3.0625em;
+        height: 3.2em;
         border-radius: 0.9375em;
         background-color: var(--main-color);
         background-image: url("../images/icone/search.svg");
         background-position: center;
         background-repeat: no-repeat;
         box-shadow: 0px 0.25em 0.25em 0px rgba(0, 0, 0, 0.25);
-        margin-right: -0.0625em;
+        
     }
 
     .search-button-name {
@@ -78,9 +85,9 @@
         margin-right: 1em;
     }
 
-    .filtres {
-        flex-direction: column;
-        
+    .filters {
+        flex-direction: column;  
+        max-width: 335px;     
     }
 
     .filtres-title{
@@ -93,6 +100,10 @@
 
     .phone-filters{
         display: flex;
+    }
+
+    .filters-button {
+        width: 162.5px;
     }
 
     .info-bar {

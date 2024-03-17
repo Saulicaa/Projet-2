@@ -5,6 +5,12 @@
     gap: 0.9375em;
 }
 
+.filters-groups{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
 .groups-filters-button {
     display: flex;
     gap: 0.9375em;
@@ -18,14 +24,15 @@
 .filters-button {
     box-sizing: border-box;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
     border-radius: 1.5625em;
     border: 0.125em solid var(--main-bg-color); 
     padding: 0.25em 1.1875em;
     gap: 0.625em;
+    height: 50px;
 }
 
-.filtres-button:hover {
+.filters-button:hover {
     background-color: var(--filter-bg-color);
 }
 

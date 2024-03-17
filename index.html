@@ -12,15 +12,15 @@
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-    <link rel="stylesheet" href="./css/activités.css">
+    <link rel="stylesheet" href="./css/activites.css">
     <link rel="stylesheet" href="./css/barre_de_recherche.css">
     <link rel="stylesheet" href="./css/filtres.css">
     <link rel="stylesheet" href="./css/footer.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/hébergement.css">
+    <link rel="stylesheet" href="./css/hebergement.css">
     <link rel="stylesheet" href="./css/info.css">
-    <link rel="stylesheet" href="./css/media tablette.css">
-    <link rel="stylesheet" href="./css/média_tel.css">
+    <link rel="stylesheet" href="./css/media_tablette.css">
+    <link rel="stylesheet" href="./css/media_tel.css">
     <link rel="stylesheet" href="./css/populaires.css">
 </head>
 
@@ -48,7 +48,7 @@
                     <p class="info-subtitle">En plein centre-ville ou en pleine nature</p>
                 </div>  
                 <div class="search-bar">
-                    <form action="" method="get" class="texte-recherche">
+                    <form action="index.html" method="get" class="texte-recherche">
                         <div class="gps-search"></div>
                         <label for="recherche-input"></label>
                         <input type="search" id="recherche-input" name="recherche" value="Marseille, France" onFocus="if(this.value=='Marseille, France')this.value='';"/>
@@ -58,28 +58,30 @@
                     </form>
                 </div>
                 <div class="filters">
-                    <h2 class="filters-title">Filtres</h2>
-                    <div class="groups-filters-button">
-                        <div class="phone-filters">
-                            <div class="filters-button">
-                                <img src="images/icone/price.svg" alt="Icone de billet">
-                                <h3>Économique</h3>
-                            </div>
-                            <div class="filters-button">
-                                <img src="images/icone/family.svg" alt="Icone de personnage">
-                                <h3>Familial</h3>
-                            </div>
-                        </div>    
-                        <div class="phone-filters">    
-                            <div class="filters-button">                            
-                                <img src="images/icone/romantic.svg" alt="Icone de coeur">
-                                <h3>Romantique</h3>
-                            </div>
-                            <div class="filters-button">
-                                <img src="images/icone/fire.svg" alt="Icone de flamme">
-                                <h3>Nos pépites</h3>
-                            </div>
-                        </div>    
+                    <div class="filters-groups">
+                        <h2 class="filters-title">Filtres</h2>
+                        <div class="groups-filters-button">
+                            <div class="phone-filters">
+                                <div class="filters-button">
+                                    <img src="images/icone/price.svg" alt="Icone de billet">
+                                    <h3>Économique</h3>
+                                </div>
+                                <div class="filters-button">
+                                    <img src="images/icone/family.svg" alt="Icone de personnage">
+                                    <h3>Familial</h3>
+                                </div>
+                            </div>    
+                            <div class="phone-filters">    
+                                <div class="filters-button">                            
+                                    <img src="images/icone/romantic.svg" alt="Icone de coeur">
+                                    <h3>Romantique</h3>
+                                </div>
+                                <div class="filters-button">
+                                    <img src="images/icone/fire.svg" alt="Icone de flamme">
+                                    <h3>Nos pépites</h3>
+                                </div>
+                            </div>    
+                        </div>
                     </div>
                 </div>
                 <div class="info-bar">
@@ -90,7 +92,7 @@
                 </div>
             </div>
             <div class="hebergements-and-populaires">
-                <section class="hebergements">
+                <section id="hebergements">
                     <h2 class="section-title">Hébergements à Marseille</h2>
                     <div class="hebergements-cards">
                         <a href="#">
@@ -280,7 +282,7 @@
                     </div>
                 </section>
             </div>
-            <section class="activités">
+            <section id="activites">
                 <h2 class="section-title">Activités à Marseille</h2>
                 <div class="activités-cards">
                     <a href="#">

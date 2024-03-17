@@ -1,6 +1,6 @@
 /******* Activités **********/
 
-.activités {   
+#activites {   
     padding: 1.875em;
     box-sizing: border-box;
     display: flex;
