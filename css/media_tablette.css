@@ -2,6 +2,7 @@
 @media (max-width: 64em) {
     .hebergements-and-populaires {
         flex-direction: column;
+        gap: 3.125em;
     }
 
     #hebergements {
@@ -10,18 +11,19 @@
 
     .populaires {
         width: 100%;
-        margin-top: 3.125em;
     }
 
     .populaires-cards {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
         padding: 0;
+        flex-direction: row;
     }
 
     .populaires-cards a {
-        width: 100%;
+        width: 100%;       
+    }
+
+    .populaires-cards img {
+        max-width: 91.5px;
     }
 
     .populaires-cards .card-title {
@@ -43,5 +45,13 @@
 
     .activités-cards img {
         height: 12.5em;
+    }
+
+    .activités-cards .card-title {
+        display: flex;
+        align-items: center;
+        margin: 0;
+        padding: 20px 19px;
+        height: 1.875em;
     }
 }
